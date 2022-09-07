@@ -1,4 +1,4 @@
-//Calculator using html css and javascript, #neumorphism Effect
+//Calculator using html css and javascript, #neumorphism
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@
     <div class="container">
         <div class="calculator">
             <input type="text" placeholder="0" id="outputscreen">
-            <button onclick="Clear()">CLR</button>
+            <button onclick="Clear()" id="btnclr">CLR</button>
             <button onclick="del()">DEL</button>
             <button onclick="display('%')">%</button>
             <button onclick="display('/')">/</button>
@@ -31,7 +31,7 @@
             <button onclick="display('+')">+</button>
             <button onclick="display('.')">.</button>
             <button onclick="display(0)">0</button>
-            <button onclick="calculate()" class="equal">=</button>
+            <button onclick="calculate()" id="btncalc" class="equal">=</button>
             
         </div>
     </div>
